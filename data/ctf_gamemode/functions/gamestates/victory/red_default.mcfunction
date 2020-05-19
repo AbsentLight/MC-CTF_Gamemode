@@ -1,5 +1,7 @@
 tellraw @a ["",{"text":"[DEBUG] ","color":"red"},{"text":"Red Victory (Default)","color":"none"}]
 
+stopsound @a *
+
 title @a[team=blue_team] subtitle ["",{"text":"You ran out of time"}]
 title @a[team=red_team] subtitle ["",{"text":"You held back the enemy"}]
 title @a[team=blue_team] title ["",{"text":"Defeat","color":"red"}]
