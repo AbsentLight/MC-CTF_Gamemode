@@ -1,0 +1,5 @@
+execute if score display_mins clocks matches 30..30 run tellraw @a ["",{"text":"[Announcer] "},{"score":{"name":"display_mins","objective":"clocks"}},{"text":" minutes remain!"}]
+execute if score display_mins clocks matches 20..20 run tellraw @a ["",{"text":"[Announcer] "},{"score":{"name":"display_mins","objective":"clocks"}},{"text":" minutes remain!"}]
+execute if score display_mins clocks matches 10..10 run tellraw @a ["",{"text":"[Announcer] "},{"score":{"name":"display_mins","objective":"clocks"}},{"text":" minutes remain!"}]
+execute if score display_mins clocks matches 5..5 run tellraw @a ["",{"text":"[Announcer] "},{"score":{"name":"display_mins","objective":"clocks"}},{"text":" minutes remain!"}]
+execute if score display_mins clocks matches 1..1 run tellraw @a ["",{"text":"[Announcer] "},{"score":{"name":"display_mins","objective":"clocks"}},{"text":" minute remains!"}]

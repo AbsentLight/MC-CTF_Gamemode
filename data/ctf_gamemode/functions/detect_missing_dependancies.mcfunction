@@ -1,0 +1,1 @@
+execute unless score map_pack_loaded globals matches 1..1 unless entity @e[type=minecraft:armor_stand,tag=override_map_warning] run tellraw @a ["",{"text":"[WARN] This gamemode will not function correctly without a valid ctf map pack or correctly configured map","color":"dark_red"}]

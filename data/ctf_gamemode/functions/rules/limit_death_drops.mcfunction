@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item] unless entity @s[nbt={Item:{id:"minecraft:arrow"}}] unless entity @s[nbt={Item:{tag:{Flag:1b}}}] if entity @s[nbt={OnGround:1b}] at @s run particle minecraft:flame ~ ~0.2 ~
+execute as @e[type=minecraft:item] unless entity @s[nbt={Item:{id:"minecraft:arrow"}}] unless entity @s[nbt={Item:{tag:{Flag:1b}}}] at @s if entity @s[nbt={OnGround:1b}] run kill @s

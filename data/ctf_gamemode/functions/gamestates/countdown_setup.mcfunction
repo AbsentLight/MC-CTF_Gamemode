@@ -1,0 +1,3 @@
+function ctf_gamemode:clock/setup_start_countdown
+
+scoreboard players set stateInitialised gameState 1
